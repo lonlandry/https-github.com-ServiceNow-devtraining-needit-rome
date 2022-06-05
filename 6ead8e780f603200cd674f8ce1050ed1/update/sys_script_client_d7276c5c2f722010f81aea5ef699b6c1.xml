@@ -25,6 +25,7 @@
 		if(newValue == 'hr'){
 			g_form.addOption('u_what_needed','hr1','Human Resources 1');
 			g_form.addOption('u_what_needed','hr2','Human Resources 2');
+			g_form.addOption('u_what_needed','hr3','Human Resources 3');
 			g_form.addOption('u_what_needed','other','Other');
 		}
 		// If the value of the Request type field is facilities, add
@@ -33,6 +34,7 @@
 		if(newValue == 'facilities'){
 			g_form.addOption('u_what_needed','facilities1','Facilities 1');
 			g_form.addOption('u_what_needed','facilities2','Facilities 2');
+			g_form.addOption('u_what_needed','facilities3','Facilities 3');
 			g_form.addOption('u_what_needed','other','Other');
 		}
 		// If the value of the Request type field is Asset Management, add
@@ -41,6 +43,7 @@
 		if(newValue == 'am'){
 			g_form.addOption('u_what_needed','am1','Asset Management 1');
 			g_form.addOption('u_what_needed','am2','Asset Management 2');
+			g_form.addOption('u_what_needed','am3','Asset Management 3');
 			g_form.addOption('u_what_needed','other','Other');
 		}
 			// If the value of the Request type field is Legal, add
@@ -49,6 +52,7 @@
 		if(newValue == 'legal'){
 			g_form.addOption('u_what_needed','legal1','Legal 1');
 			g_form.addOption('u_what_needed','legal2','Legal 2');
+			g_form.addOption('u_what_needed','legal3','Legal 3');
 			g_form.addOption('u_what_needed','other','Other');
 		}
 		// If the form is loading and it is not a new record, set the u_what_needed value to the
@@ -63,7 +67,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d7276c5c2f722010f81aea5ef699b6c1</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>NeedIt Request Type Options</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -71,7 +75,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_client_d7276c5c2f722010f81aea5ef699b6c1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-05 18:13:36</sys_updated_on>
+        <sys_updated_on>2022-06-05 16:29:14</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
